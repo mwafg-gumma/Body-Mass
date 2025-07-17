@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file -->
+    <link rel="stylesheet" href="./scr/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Body Mass Index calculator</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="right-section">
+            <div class="icon">
+                <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="text">
+                <h1>
+                    Body Mass <br>
+                    Index Calculator
+                </h1>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Et saepe ullam modi maxime. Tempore earum ea porro at omnis aliquam non nesciunt deleniti cupiditate, asperiores repellendus corporis nulla, ipsa aperiam.
+                </p>
+            </div>
+        </div>
+        <!-- left section -->
+        <div class="left-section">
+            <form id="bmi-form">
+                <h1>
+                    Enter Your Details below
+                </h1>
+                <div class="check">
+                    <div>
+                        <input type="radio" name="metric" id="metric">
+                        <label for="metric">Metric</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Imperial" id="Imperial">
+                        <label for="metric">Imperial</label>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="input-group">
+                    <label for="weight">Weight (kg)</label>
+                    <input type="number" id="weight" placeholder="Enter your weight KG" required>
+                </div>
+                <div class="input-group">
+                    <label for="height">Height (cm)</label>
+                    <input type="number" id="height" placeholder="Enter your height CM" required>
+                </div>
+                </div>
+                <div class="message">
+                    <h3 id="result-message">
+                        Welcome 
+                    </h3>
+                    <p class="lead">
+                        Enter your details to calculate your BMI.
+                    </p>
+                </div>
+                <div class="output">
+                        <button type="submit" id="calculate-btn">Calculate BMI</button>
+                    </div>
+            </form>
+            <div class="result" id="result"></div>
+            </div>
+        </header>  
+        <!-- showcase -->
+        
+        <section class="showcase">
+            <!-- image side -->
+            <div class="img-side">
+                <img src="./image/user.png"  alt="user image">
+            </div>
+            <!-- result Message side -->
+            <div class="result">
+                <div class="title">
+                    <h1>What Your BMI result means </h1>
+                </div>
+                <div class="description">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quidem vero odit voluptatum laborum perferendis velit unde incidunt totam esse,
+                        vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                        vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                    </p>
+                </div>
+                <button>
+                    <a href="https://www.who.int/news-room/fact-sheets/detail/body-mass-index-bmi" target="_blank">Learn More</a>
+                </button>
+            </div>
+        </section>
+
+        <!--cards section -->
+        <section class="cards">
+            <!-- card 1 -->
+            <div class="card-items">
+                <!-- icon -->
+                <div class="eat-icon">
+                    <i class="fa-solid fa-plate-wheat"></i>
+                </div>
+                <!-- title -->
+                <div class="title">
+                    <h1>Healthy eating</h1>
+                </div>
+                <!-- description -->
+                <div class="description">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quidem vero odit voluptatum laborum perferendis velit unde incidunt totam esse,
+                        
+                    </p>
+            </div>
+            </div>
+            <!-- card 2 -->
+                <div class="card-items">
+                <!-- icon -->
+                <div class="gym-icon">
+                    <i class="fa-solid fa-dumbbell"></i>
+                </div>
+                <!-- title -->
+                <div class="title">
+                    <h1>Regular exercise</h1>
+                </div>
+                <!-- description -->
+                <div class="description">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quidem vero odit voluptatum laborum perferendis velit unde incidunt totam esse,
+                    </p>
+            </div>
+            </div>
+            <!-- card 3 -->
+                <div class="card-items">
+                <!-- icon -->
+                <div class="moon-icon">
+                <i class="fa-solid fa-moon"></i>
+                </div>
+                <!-- title -->
+                <div class="title">
+                    <h1>Adequate Sleep</h1>
+                </div>
+                <!-- description -->
+                <div class="description">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quidem vero odit voluptatum laborum perferendis velit unde incidunt totam esse,
+                        
+                    </p>
+            </div>
+            </div>
+            <!--  -->
+        </section>
+
+        <!-- aside section -->
+        <aside class="aside">
+            <div class="boxes">
+                <!-- text box -->
+                <div class="text-box">
+                    <h1>Limitations Of BMI</h1>
+                    <p class="lead">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit harum deleniti libero distinctio,
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                        ut minus deserunt quaerat voluptatum laboriosam,quis aliquam id perspiciatis expedita?
+                    </p>
+                </div>
+                <!-- boxs side -->
+                <div class="boxes-side">
+                    <!-- gender box -->
+                    <div class="gender">
+                    <div class="title">
+                        <i class="fa-solid fa-mars-and-venus"></i>
+                        <h3>Gender</h3>
+                    </div>
+                    <div class="description">
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vero odit voluptatum laborum 
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                        </p>
+                    </div>
+                </div>
+                <!-- second  -->
+                <div class="Air">
+                    <div class="first">
+                    <div class="title">
+                        <i class="fa-solid fa-cake-candles age"></i>
+                        <h3>Age</h3>
+                    </div>
+                    <div class="description">
+                        <p class="lead">
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                        </p>
+                    </div>
+                </div>
+                    <div class="first">
+                    <div class="title">
+                        <i class="fa-solid fa-dumbbell gym"></i>
+                        <h3>Muscle</h3>
+                    </div>
+                    <div class="description">
+                        <p class="lead">
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <!-- second  -->
+                    <div class="last">
+                    <div class="second">
+                    <div class="title">    
+                    <i class="fa-solid fa-child child"></i>   
+                        <h3>Race</h3>
+                    </div>
+                    <div class="description">
+                        <p class="lead">
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                        </p>
+                    </div>
+                </div>
+                    <div class="second">
+                    <div class="title">
+                        <i class="fa-solid fa-face-smile face"></i>
+                        <h3>pregnancy</h3>
+                    </div>
+                    <div class="description">
+                        <p class="lead">
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                            vitae molestiae aut vel ea quod sapiente laboriosam! Maxime, blanditiis iure.
+                        </p>
+                    </div>
+                </div>
+                </div>
+                <!-- end -->
+                </div>
+                <!-- ather box -->
+            </div>
+        </aside>
+        <!-- article  -->
+        <article class="article">
+            <div class="rat">
+                <div class="text">
+                    <h1>
+                        10,000+ People have used this BMI calculator
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet. Quo, possimus dolorem cupiditate ducimus
+                        eligendi soluta eum architecto nulla repudiandae voluptatum, 
+                    </p>
+                </div>
+                <!-- star side -->
+                <div class="line">
+                    <div>
+                        <div class="start">
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                        </div>
+                        <h5>
+                            Rated 5 stars 10,00+
+                        </h5>
+                    </div>
+                    <div>
+                        <div class="start">
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                        </div>
+                        <h5>
+                            Rated 5 stars 7,000+
+                        </h5>
+                    </div>
+                    <div>
+                        <div class="start">
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                            <p>&#9733; </p>
+                        </div>
+                        <h5>
+                            Rated 5 starrs 20,00+
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- footer -->
+        <div class="footer">
+    <div class="footer-columns">
+        <div class="footer-col">
+            <h2 class="footer-title">BMI Calculator</h2>
+            <p class="footer-desc">
+                Track your health and wellness with our simple, fast, and accurate BMI calculator.
+            </p>
+            <div class="footer-social">
+                <a href="#" class="social-icon facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-icon tiktok" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" class="social-icon google" title="Google"><i class="fa-brands fa-google"></i></a>
+                <a href="#" class="social-icon twitter" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">BMI Calculation</a></li>
+                <li><a href="#">Health Tips</a></li>
+                <li><a href="#">Nutrition Guide</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <form class="footer-form">
+                <input type="email" placeholder="Your email..." required>
+                <button type="submit">Send</button>
+            </form>
+            <p class="newsletter-text">Subscribe to get more info</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p id="copyright"></p>
+    </div>
+</div>
+
+</body>
+<!-- main javascript -->
+<script src="./scr/main.js"></script>
+</html>
+
+
