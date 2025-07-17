@@ -1,5 +1,5 @@
 # Body Mass Index (BMI) Calculator
-![image alt]()
+![image alt](https://github.com/mwafg-gumma/Body-Mass/blob/b0202e4837e9fbd9b4b94253e9d1fba3c79e07f6/Home.jpeg)
 ## Build on top of thisCreate something new based on this, like an Audio Overview, web app or timeline   
 ### This project is a simple, user-friendly web-based Body Mass Index (BMI) calculator. It allows users to quickly determine their BMI by inputting their weight in kilograms and height in centimeters. The calculator then provides an immediate result and classifies it according to standard BMI categories, helping users understand if their weight is healthy in relation to their height.
 The Body Mass Index is a widely used screening tool to categorize individuals as underweight, normal weight, overweight, or obese. While it's a useful indicator for most people, it should not be considered a definitive diagnostic tool for health. It serves as a general guide for understanding body composition.
